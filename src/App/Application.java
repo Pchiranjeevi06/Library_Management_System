@@ -86,7 +86,7 @@ public class Application extends JFrame{
 	    {
 	        try {
 	            Class.forName("com.mysql.cj.jdbc.Driver");
-	            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root","CHIRU@2002@10@6");
+	            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project", "root","yourpassword");
 	        }
 	        catch (ClassNotFoundException ex)
 	        {
